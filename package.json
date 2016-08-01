@@ -1,9 +1,14 @@
 {
   "name": "superpowers-game-martinor-easystarjs-plugin",
-  "description": "Plugin for Superpowers game",
+  "description": "Plugin to expose EasyStar API for Superpowers",
+  "version": "0.1.0",
   "scripts": {
     "build": "gulp --gulpfile=../../../../../scripts/pluginGulpfile.js --cwd=."
   },
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/SparedRay/superpowers-game-martinor-easystarjs-plugin.git"
+	},
   "dependencies": {
     "easystarjs": "^0.2.0"
   }
