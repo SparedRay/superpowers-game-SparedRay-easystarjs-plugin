@@ -1,13 +1,14 @@
 // Type definitions for EasyStar.js 0.1.6
 // Project: http://easystarjs.com/
 // Definitions by: Magnus Gustafsson <https://github.com/borundin>
-// Definitions: https://github.com/borisyankov/DefinitelyTyped  
+// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped  
+
 /*
-easystarjs.d.ts may be freely distributed under the MIT license.
-*/
+ easystarjs.d.ts may be freely distributed under the MIT license.
+ */
 
-declare namespace EasyStar {
-
+declare namespace EasyStar
+{
     class js
     {
         new (): js;
@@ -29,4 +30,8 @@ declare namespace EasyStar {
         x: number;
         y: number;
     }
+}
+
+declare module "EasyStar" {
+    export = EasyStar;
 }
