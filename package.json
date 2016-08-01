@@ -1,0 +1,10 @@
+{
+  "name": "superpowers-game-martinor-easystarjs-plugin",
+  "description": "Plugin for Superpowers game",
+  "scripts": {
+    "build": "gulp --gulpfile=../../../../../scripts/pluginGulpfile.js --cwd=."
+  },
+  "dependencies": {
+    "easystarjs": "^0.2.0"
+  }
+}
