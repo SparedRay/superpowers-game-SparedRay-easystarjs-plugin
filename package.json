@@ -7,7 +7,7 @@
   },
   "repository": {
   	"type": "git",
-  	"url": "https://github.com/SparedRay/superpowers-game-martinor-easystarjs-plugin.git"
+  	"url": "https://github.com/SparedRay/superpowers-game-SparedRay-easystarjs-plugin.git"
 	},
   "dependencies": {
     "easystarjs": "^0.2.0"
